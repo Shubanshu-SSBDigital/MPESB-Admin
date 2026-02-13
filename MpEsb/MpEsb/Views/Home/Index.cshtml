@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="row">
+
+    <!-- Total Projects -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-info">
+            <div class="inner">
+                <h3>24</h3>
+                <p>Total Projects</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-project-diagram"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Active Projects -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-success">
+            <div class="inner">
+                <h3>12</h3>
+                <p>Active Projects</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-tasks"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Members -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-warning">
+            <div class="inner">
+                <h3>35</h3>
+                <p>Team Members</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Completed -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-danger">
+            <div class="inner">
+                <h3>8</h3>
+                <p>Completed Projects</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Project Table Section -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-primary">
+                <h3 class="card-title text-white">Recent IT Projects</h3>
+            </div>
+
+            <div class="card-body table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Client</th>
+                            <th>Status</th>
+                            <th>Deadline</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ERP System</td>
+                            <td>ABC Corporation</td>
+                            <td><span class="badge bg-success">Active</span></td>
+                            <td>30 Mar 2026</td>
+                        </tr>
+                        <tr>
+                            <td>Banking Portal</td>
+                            <td>National Bank</td>
+                            <td><span class="badge bg-warning">In Progress</span></td>
+                            <td>15 Apr 2026</td>
+                        </tr>
+                        <tr>
+                            <td>HR Management</td>
+                            <td>Global Tech</td>
+                            <td><span class="badge bg-danger">Delayed</span></td>
+                            <td>05 May 2026</td>
+                        </tr>
+                        <tr>
+                            <td>E-Commerce App</td>
+                            <td>Retail Hub</td>
+                            <td><span class="badge bg-info">Planning</span></td>
+                            <td>20 Jun 2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

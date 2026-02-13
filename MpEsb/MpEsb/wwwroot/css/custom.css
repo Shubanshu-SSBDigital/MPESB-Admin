@@ -1,0 +1,72 @@
+﻿/* ===== Global Background ===== */
+body {
+    background-color: #F1F5F9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Navbar ===== */
+.main-header {
+    background-color: #1E3A8A !important;
+}
+
+    .main-header .nav-link,
+    .main-header .navbar-brand {
+        color: #ffffff !important;
+    }
+
+/* ===== Sidebar ===== */
+.main-sidebar {
+    background-color: #0F172A !important;
+}
+
+.nav-sidebar .nav-link {
+    color: #cbd5e1 !important;
+}
+
+    .nav-sidebar .nav-link.active {
+        background-color: #1E3A8A !important;
+        color: #ffffff !important;
+        border-radius: 6px;
+    }
+
+    .nav-sidebar .nav-link:hover {
+        background-color: #1E293B !important;
+        color: #ffffff !important;
+        border-radius: 6px;
+    }
+
+/* ===== Brand Logo ===== */
+.brand-link {
+    background-color: #0F172A !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/* ===== Content Wrapper ===== */
+.content-wrapper {
+    background-color: #F1F5F9 !important;
+}
+
+/* ===== Cards ===== */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+    background-color: #1E3A8A;
+    border-color: #1E3A8A;
+}
+
+    .btn-primary:hover {
+        background-color: #162d6a;
+        border-color: #162d6a;
+    }
+
+/* ===== Footer ===== */
+.main-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+}
